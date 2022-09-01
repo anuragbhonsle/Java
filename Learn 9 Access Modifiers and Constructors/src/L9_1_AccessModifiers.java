@@ -18,8 +18,7 @@ class MyEmployee{
 public class L9_1_AccessModifiers {
     public static void main(String[] args) {
         MyEmployee naruto  = new MyEmployee();
-        // harry.id = 45;
-        // harry.name = "CodeWithHarry"; --> Throws an error due to private access modifier
+       
         naruto.setName("Naruto Uxumaki");
         System.out.println(naruto.getName());
         naruto.setId(77);
